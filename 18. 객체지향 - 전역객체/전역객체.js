@@ -2,7 +2,7 @@ function func() {
     console.log('Hello?');
 }
 
-func();
+func(); // Hello?
 
 /*
 - window: 객체
@@ -15,6 +15,6 @@ var o = {'func' : function() {
     console.log('Hello?');
 }}
 
-o.func();
+o.func(); // Hello?
 
 // window.o.func();
