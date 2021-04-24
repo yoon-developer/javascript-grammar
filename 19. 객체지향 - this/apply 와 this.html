@@ -15,11 +15,13 @@
 
         // 함수로 호출할 경우 this 는 window
         var o1 = Func();
+        // window
         if (funcThis === window) {
             document.write('window <br />');
         }
 
         var o2 = new Func();
+        // o2
         if (funcThis === o2) {
             document.write('o2 <br />');
         }

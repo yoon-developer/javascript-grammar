@@ -7,4 +7,4 @@ var o = {
     }
 }
 
-o.func();
+o.func(); // o === this
