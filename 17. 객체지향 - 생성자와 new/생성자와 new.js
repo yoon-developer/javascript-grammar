@@ -6,7 +6,7 @@ p1.name = 'yoon1';
 p1.introduce = function(){
     return 'My name is '+this.name; 
 }
-console.log(p1.introduce());
+console.log(p1.introduce()); // My name is yoon1
 
 // ex 2) name 을 바꾸기 위해 중복 코드 발생
 function Person2(){}
@@ -15,7 +15,7 @@ p2.name = 'yoon2';
 p2.introduce = function(){
     return 'My name is '+this.name; 
 }
-console.log(p2.introduce());
+console.log(p2.introduce()); // My name is yoon2
 
 
 // ex 3)
@@ -27,7 +27,7 @@ function Person3(name){
 }
 
 var p3 = new Person3('yoon3');
-console.log(p3.introduce());
+console.log(p3.introduce()); // My name is yoon3
  
 var p3 = new Person3('yoon4');
-console.log(p3.introduce());
+console.log(p3.introduce()); // My name is yoon4

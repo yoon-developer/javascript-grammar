@@ -6,7 +6,7 @@ person1.introduce = function() {
     return 'My name is ' + this.name;
 }
 
-console.log(person1.introduce());
+console.log(person1.introduce()); // My name is yoon1
 
 // ex 2)
 var person2 = {
@@ -16,4 +16,4 @@ var person2 = {
     }
 }
 
-console.log(person2.introduce());
+console.log(person2.introduce()); // My name is yoon2
